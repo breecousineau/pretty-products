@@ -23,7 +23,7 @@ body {
 }
 
 ul {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin: 0;
@@ -44,7 +44,6 @@ li a {
   margin: 0;
   text-decoration: none;
   align-items: center;
-  background-color: #6f00e7;
 }
 
 div {
@@ -59,4 +58,6 @@ span {
 
 .button {
   background-color: #6f00e7;
+  border-radius:
+  padding:
 }
