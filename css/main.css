@@ -11,16 +11,17 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-}
-
 h2 {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   color: #6f00e7;
   font-size: 2rem;
 }
 
-ul {
+li {
   text-decoration: none;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
