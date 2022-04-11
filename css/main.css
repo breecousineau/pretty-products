@@ -82,6 +82,6 @@ span {
 .button {
   background-color: #6f00e7;
   border-radius:
-  padding:
+  padding: .25rem;
   margin: auto;
 }
