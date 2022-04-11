@@ -34,7 +34,6 @@ article {
   border: 3px solid #987ffa;
   border-radius: 6px;
   margin: .25rem;
-  padding: .5em 1.5em .7em;
 }
 
 article > img {
@@ -61,7 +60,7 @@ li a {
 }
 
 li a.button {
-  padding: 1rem;
+  padding: .25rem;
   background-color: #6f00e7;
   margin: auto;
 }
