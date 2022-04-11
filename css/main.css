@@ -14,7 +14,6 @@ html {
 h2 {
   font-family: Oswald, sans-serif;
   color: #6f00e7;
-  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -35,6 +34,7 @@ article {
   border: 3px solid #987ffa;
   border-radius: 6px;
   margin: .25rem;
+  padding: .5em 1.5em .7em;
 }
 
 article > img {
@@ -61,7 +61,7 @@ li a {
 }
 
 li a.button {
-  padding: .5em 1.5em .7em;
+  padding: 1rem;
   background-color: #6f00e7;
   margin: auto;
 }
