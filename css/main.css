@@ -30,6 +30,17 @@ ul {
   padding-left: 0;
 }
 
+article {
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+  padding: .5em 1.5em .7em;
+  margin: .25rem;
+}
+
+p {
+  text-align: center;
+}
+
 li {
   text-decoration: none;
   display: flex;
@@ -38,12 +49,11 @@ li {
 }
 
 li a {
-  border-radius: 3em, 6px;
-  border: 3px solid #987ffa
-  padding: 1rem;
+  padding: .25em, 1rem;
   margin: 0;
   text-decoration: none;
   align-items: center;
+  border-radius: 3em;
 }
 
 div {
