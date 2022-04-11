@@ -12,9 +12,10 @@ html {
 }
 
 h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   color: #6f00e7;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 body {
@@ -37,6 +38,10 @@ article {
   margin: .25rem;
 }
 
+article > img {
+  max-width: 15em;
+}
+
 p {
   text-align: center;
 }
@@ -48,12 +53,20 @@ li {
   justify-content: flex-start;
 }
 
+li:first-child {
+  margin-right: auto;
+}
+
 li a {
-  padding: .25em, 1rem;
+  padding: .25em 1rem;
   margin: 0;
   text-decoration: none;
   align-items: center;
   border-radius: 3em;
+}
+
+li a.button {
+  padding: .5em 1.5em .7em;
 }
 
 div {
