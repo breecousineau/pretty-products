@@ -33,11 +33,15 @@ ul {
 article {
   border: 3px solid #987ffa;
   border-radius: 6px;
-  margin: .25rem;
+  padding: .25rem;
+  grid-gap: 1rem;
+  margin: .5rem;
+  flex-direction: row;
+  align-items: center;
 }
 
 article > img {
-  max-width: 15em;
+  max-width: 10em;
 }
 
 li {
