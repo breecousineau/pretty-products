@@ -29,7 +29,7 @@ body {
 ul {
   display: flex;
   margin: 0;
-  padding-left: 0
+  padding-left: 0;
 }
 
 ul a {
@@ -41,7 +41,7 @@ ul a {
 article {
   border: 3px solid #987ffa;
   border-radius: 6px;
-  padding: .25rem;
+  padding: 1rem;
   margin: .25rem;
   display: flex;
   flex-direction: column;
