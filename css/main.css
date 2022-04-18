@@ -42,7 +42,6 @@ article {
   border: 3px solid #987ffa;
   border-radius: 6px;
   padding: .25rem;
-  grid-gap: 1rem;
   margin: .25rem;
   display: flex;
   flex-direction: column;
