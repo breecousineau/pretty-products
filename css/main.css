@@ -29,8 +29,11 @@ body {
 ul {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 ul a {
@@ -51,14 +54,11 @@ article {
 }
 
 article > img {
-  max-width: 10em;
+  max-width: 15em;
 }
 
 li {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  padding: 0 .25rem;
 }
 
 li:first-child {
